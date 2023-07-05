@@ -10,7 +10,7 @@ app.get('/',(req,res)=>{
     res.sendFile(__dirname+'/index.html')
 });
 app.get('/chat',(req,res)=>{
-    res.sendFile(__dirname+'/chat.html')
+    res.sendFile(__dirname+'/chat.html');
 });
 
 //Socket
