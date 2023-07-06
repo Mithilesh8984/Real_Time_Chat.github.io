@@ -6,6 +6,7 @@ let newUser=document.createElement('div');
 newUser.innerHTML=`<div class="username-room float-bottom d-flex ms-3 mb-0 pt-1 ">
        <p class="ms-2 mb-4">User- ${sessionStorage.getItem('username')}</p>         <p class="float-end me-3 ms-auto ">Room- ${sessionStorage.getItem('room')}</p>
  </div>`;
+
  let parentUserRoom=document.getElementById("appname");
  let existingUserRoom = parentUserRoom.querySelector(".usernameroom");
 
