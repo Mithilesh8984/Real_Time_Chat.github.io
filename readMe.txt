@@ -15,7 +15,7 @@ A real-time chat application built with **Node.js**, **Express**, and **Socket.I
 
 Follow these steps to set up and run the application on your local machine.
 * start the server
-    node server.js    on terminal
+    npm run dev   on terminal
 * search on brouser
     https://localhost:3000   # localhost:{Port No}
 
