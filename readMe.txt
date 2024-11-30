@@ -6,7 +6,7 @@ A real-time chat application built with **Node.js**, **Express**, and **Socket.I
 ## Features
 
 - **Real-Time Communication**: Messages are sent and received instantly using WebSockets.
-- **Broadcast Messages**: Messages are broadcast to all connected users.
+- **Broadcast Messages**: Messages are broadcast to all same room connected users.
 - **Responsive User Interface**: Simple and clean UI that works on various screen sizes.
 - **User Notifications**: Notify users when someone joins or leaves the chat.
 - **Scalable Architecture**: Easy to scale with additional features like private chats, rooms, etc.
